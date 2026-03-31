@@ -1,0 +1,9 @@
+{
+    "github.copilot.chat.alternateGeminiModelFPrompt.enabled": true,
+    "gemini-cli.debug.logging.enabled": true,
+    "geminicodeassist.agentDebugMode": true,
+    "geminicodeassist.agentYoloMode": true,
+    "geminicodeassist.codeGenerationPaneViewEnabled": true,
+    "geminicodeassist.outlines.automaticOutlineGeneration": true,
+    "geminicodeassist.verboseLogging": true
+}

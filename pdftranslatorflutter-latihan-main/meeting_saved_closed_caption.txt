@@ -1,0 +1,534 @@
+[Baromim Triwijaya] 09:11:40
+Pemahaman mendalam mengenai konsep aplikasi multi bahasa. Serta teknologi, tekstur, speech.
+
+[Baromim Triwijaya] 09:11:48
+Untuk mengubah informasi visual menjadi suara. Melalui pembelajaran ini.
+
+[Baromim Triwijaya] 09:11:55
+Terdapat target pencapaian agar mampu menambahkan fitur bahasa. Yang adaptif terhadap referensi pengguna.
+
+[Baromim Triwijaya] 09:12:03
+Serta implementasikan fungsi pembacaan teks otomatis di dalam aplikasi.
+
+[Baromim Triwijaya] 09:12:09
+Penggunaan kedua materi ini sangat krusial dalam membuat pengalaman pengguna yang lebih aksesible.
+
+[Baromim Triwijaya] 09:12:16
+Tentang profesional Padas. Kalau internasional.
+
+[Baromim Triwijaya] 09:12:21
+Yang pertama, yaitu. Internet Internasionalization di Flutter.
+
+[Baromim Triwijaya] 09:12:26
+Konsep ini merupakan proses perancangan aplikasi agar dapat beradaptasi secara otomatis dengan berbagai bahasa dan wilayah.
+
+[Baromim Triwijaya] 09:12:35
+Tanpa memerlukan perubahan pada kode. Program utama.
+
+[Baromim Triwijaya] 09:12:40
+Maka melalui mekanisme ini, pengembang hanya cukup menyediakan file referensi bahasa yang berbeda.
+
+[Baromim Triwijaya] 09:12:47
+Sementara logi ke aplikasi tetap berjalan secara seragam di seluruh dunia.
+
+[Baromim Triwijaya] 09:12:54
+Tujuan utamanya adalah untuk memastikan aplikasi memiliki jangkauan yang lebih luas.
+
+[Baromim Triwijaya] 09:12:59
+Sehingga dapat digunakan oleh pengguna dari berbagai negara. Tolong.
+
+[Baromim Triwijaya] 09:13:03
+Dengan preferensi bahasa yang berbeda. Sekaligus memberikan fleksibilitas tinggi dalam proses penggantian.
+
+[Baromim Triwijaya] 09:13:11
+Atau penambahan bahasa baru di masa yang akan datang.
+
+[Baromim Triwijaya] 09:13:18
+Jadi, implementasi fitur multi puasa ini telah menjadi standar wajib bagi berbagai platform digital.
+
+[Baromim Triwijaya] 09:13:25
+Yang telah beroperasi di skala global. Contohnya, Tanya dapat ditemukan pada aplikasi E. Commerce.
+
+[Baromim Triwijaya] 09:13:32
+Yang harus menyesuaikan mata uang dan juga bahasa sesuai lokasi pembeli.
+
+[Baromim Triwijaya] 09:13:39
+Selanjutnya, ada aplikasi media sosial yang menghubungkan pengguna antar negara.
+
+[Baromim Triwijaya] 09:13:44
+Serta platform pendidikan yang menyediakan materi dalam berbagai bahasa pengantar.
+
+[Baromim Triwijaya] 09:13:50
+Selain itu, fitur ini merupakan komponen inti dari aplikasi penerjemah.
+
+[Baromim Triwijaya] 09:13:55
+Di mana kemampuan untuk beralih antar bahasa. Secara instan menjadi nilai guna utama bagi penggunanya.
+
+[Baromim Triwijaya] 09:14:05
+Selanjutnya ada perbedaan internationalization dan localization. Perbedaan mendasar antara keduanya terletak pada tahap persiapannya.
+
+[Baromim Triwijaya] 09:14:14
+Di mana internationalization merupakan tahap rancangan teknis. Untuk menyiapkan aplikasi agar mampu mendukung banyak bahasa.
+
+[Baromim Triwijaya] 09:14:22
+Dan juga format wilayah secara fleksibel. Sedangkan untuk localization adalah proses spesifik.
+
+[Baromim Triwijaya] 09:14:30
+Untuk menerjemahkan konten. Serta menyesuaikan elemen aplikasi ke dalam bahasa atau.
+
+[Baromim Triwijaya] 09:14:35
+Budaya tertentu. Singkatnya, internasion Internasionalization membangun infrastruktur.
+
+[Baromim Triwijaya] 09:14:44
+Agar aplikasi bisa bersifat multi Bahasa. Sementara localization adalah langkah eksekusi dalam menyediakan.
+
+[Baromim Triwijaya] 09:14:51
+Terjemahan nyata untuk wilayah yang dituju.
+
+[Baromim Triwijaya] 09:14:56
+Selanjutnya ada acara kerja. Multi bahasa.
+
+[Baromim Triwijaya] 09:15:02
+Struktur multi bahasa pada aplikasi umumnya dikelola melalui file referensi terpisah.
+
+[Baromim Triwijaya] 09:15:09
+Seperti menggunakan format Jeson. Di mana file ini? Disimpan di dalam Directory Khusus Bahasa, misalnya. Di.
+
+[Baromim Triwijaya] 09:15:17
+Volti Airline. Kemudian nama file nya. N dot, chison.
+
+[Baromim Triwijaya] 09:15:22
+Untuk bahasa Inggris. Dan juga nama file Id Dot Cison untuk bahasa Indonesia.
+
+[Baromim Triwijaya] 09:15:31
+Di dalam file ini, setiap elemen teks pada antar muka di didefinisikan menggunakan kunci atau Key.
+
+[Baromim Triwijaya] 09:15:37
+Yang sama. Namun, dengan nilai Value yang berbeda, sesuai terjemahannya.
+
+[Baromim Triwijaya] 09:15:42
+Sebagai contoh, kunci upload. Akan penilai upload Pdf pada.
+
+[Baromim Triwijaya] 09:15:48
+Versi bahasa Inggris. Dan berubah menjadi unggah. Pdf.
+
+[Baromim Triwijaya] 09:15:53
+Versi bahasa Indonesia. Dengan cara ini, pengembang tidak perlu menulis teks secara langsung di dalam kode program.
+
+[Baromim Triwijaya] 09:16:01
+Melainkan cukup memanggil kunci tersebut agar teks dapat berubah secara dinamis. Sesuai bahasa yang dipilih.
+
+[Baromim Triwijaya] 09:16:11
+Karena kerja, fitur multi bahasa ini. Mengikuti alur sistematis yang dimulai.
+
+[Baromim Triwijaya] 09:16:17
+Saat pengguna memilih bahasa tertentu melalui Pen menu pengaturan.
+
+[Baromim Triwijaya] 09:16:23
+Tindakan tersebut memicu perubahan pada lokal. Aplikasi. Yang merupakan parameter penentu bahasa dan wilayah yang sedang di aktif.
+
+[Baromim Triwijaya] 09:16:34
+Setelah lokal berubah, aplikasi akan memuat file bahasa yang sesuai dari teori penyimpanan.
+
+[Baromim Triwijaya] 09:16:40
+Dan secara otomatis mengganti seluruh teks pada antar muka pengguna.
+
+[Baromim Triwijaya] 09:16:45
+Berdasarkan kunci yang tersedia. Hasilnya teks seperti.
+
+[Baromim Triwijaya] 09:16:51
+Translator Et akan langsung bertransformasi menjadi aplikasi penerjemah. Tanpa perlu menjalankan ulang aplikasi atau berpindah halaman.
+
+[Baromim Triwijaya] 09:17:01
+Ini contoh isi dari file entergison. Ini untuk bahasa Inggris.
+
+[Baromim Triwijaya] 09:17:07
+Dengan C atau K Tol. Memiliki Value Translator App.
+
+[Baromim Triwijaya] 09:17:13
+Kemudian Key Upload memiliki Value. Upload. Pdf. Dan kunci atau Key Resort memiliki Value.
+
+[Baromim Triwijaya] 09:17:23
+Translation Result. Karena untuk versi bahasa Indonesianya.
+
+[Baromim Triwijaya] 09:17:28
+Berada di file bernama Id. Togison. Dengan Key Atau kunci.
+
+[Baromim Triwijaya] 09:17:34
+Aplikasi penerjemak. E Tittle. Dengan Value. Aplikasi penerjemah.
+
+[Baromim Triwijaya] 09:17:41
+Selanjutnya E. Atau kunci Upload. Memiliki Value Unggah Pdf.
+
+[Baromim Triwijaya] 09:17:47
+Dan terakhir untuk kunci resort. Memiliki Value. Hasil terjemahan.
+
+[Baromim Triwijaya] 09:17:58
+Oke, selanjutnya speech. Pada Father.
+
+[Baromim Triwijaya] 09:18:05
+Speech merupakan teknologi mutakhir yang memungkinkan sebuah aplikasi. Untuk mengkonferensi tata teks menjadi suara.
+
+[Baromim Triwijaya] 09:18:11
+Yang keempat ditengar secara natural. Proses ini bekerja melalui mekanisme fit Saint Etis.
+
+[Baromim Triwijaya] 09:18:41
+Gimana sistem menganalisis susunan kata? Dan juga kalimat. Kemudian menghasilkan gelombang suara yang menyerupai kol manusia.
+
+[Baromim Triwijaya] 09:18:41
+Dengan adanya speech ini. Interaksi antara pengguna dan aplikasi tidak lagi terbatas pada aspek visual.
+
+[Baromim Triwijaya] 09:18:42
+Melainkan juga melalui indra pendengaran yang sangat membantu dalam meningkatkan.
+
+[Baromim Triwijaya] 09:18:44
+Aksibilitas, Aplikasi. Dibentrasi. Teknologi ini sudah sangat luas dan dapat ditemukan dalam berbagai platform populer.
+
+[Baromim Triwijaya] 09:18:53
+Yang digunakan sehari hari. Contoh yang paling umum adalah pada Layanan Google Translate.
+
+[Baromim Triwijaya] 09:19:01
+Yang membantu pengguna mendengarkan pelafalan kata asing. Kemudian ada aplikasi audiobook.
+
+[Baromim Triwijaya] 09:19:09
+Untuk menikmati buku tanpa harus membaca. Hingga asisten virtual. Seperti Google Assistant atau siri.
+
+[Baromim Triwijaya] 09:19:17
+Yang berkomunikasi melalui suara. Selain itu, tekstur speech menjadi komponen vital.
+
+[Baromim Triwijaya] 09:19:25
+Dalam aplikasi pembelajaran bahasa untuk melatih kemampuan pendengaran. Pengguna terhadap vaksin dan juga intonasi yang tepat.
+
+[Baromim Triwijaya] 09:19:36
+Selanjutnya, cara kerja Textur. Speech. Cara kerja teknologi Text Service mengikuti keluh pemeriksaan data yang sistematis.
+
+[Baromim Triwijaya] 09:19:46
+Untuk menghasilkan suara yang terdengar alami. Proses ini dimulai saat teks dimasukkan ke dalam sistem.
+
+[Baromim Triwijaya] 09:19:54
+Yang kemudian dianalisis oleh Speech Engine untuk memahami struktur kalimat.
+
+[Baromim Triwijaya] 09:19:58
+Tanda baca. Serta intonasi yang sesuai. Setelah teks diproses, mesin sintetis suara akan mengubah data digital.
+
+[Baromim Triwijaya] 09:20:08
+Menjadi gelombang audio. Yang akan merepresentasikan vokal manusia.
+
+[Baromim Triwijaya] 09:20:17
+Pada tahap air dari alur ini adalah. Dikirimkannya. Sinyal audio tersebut ke perangkat keluaran.
+
+[Baromim Triwijaya] 09:20:24
+Atau speaker untuk diputar.
+
+[Baromim Triwijaya] 09:20:29
+Sehingga pengguna dapat mendengarkan pembacaan teks tersebut secara langsung.
+
+[Baromim Triwijaya] 09:20:35
+Selanjutnya ada komponen. Tekstur, speech.
+
+[Baromim Triwijaya] 09:20:40
+Dalam implementasi teknologi ini, terdapat tiga komponen utama. Yang bekerja secara terintegrasi untuk menghasilkan interaksi audio yang berkualitas.
+
+[Baromim Triwijaya] 09:20:52
+Yang pertama ada. Next input.
+
+[Baromim Triwijaya] 09:20:56
+Yaitu data teks mentah yang dimasukkan untuk dibacakan oleh sistem.
+
+[Baromim Triwijaya] 09:21:00
+Teks ini kemudian diolah oleh Speech Engine. Yaitu sebuah sistem pemprosesan bahasa alami yang bertanggung jawab untuk.
+
+[Baromim Triwijaya] 09:21:10
+Mensintesis teks menjadi format suara dengan. Memperhatikan intonasi dan juga pelafalan.
+
+[Baromim Triwijaya] 09:21:19
+Komponen terakhir adalah Voice. Output. Yang merupakan hasil akhir berupa suara digital yang diputar oleh perangkat.
+
+[Baromim Triwijaya] 09:21:30
+Sinergi antara ketiga komponen ini memastikan bahwa pesan tertulis.
+
+[Baromim Triwijaya] 09:21:34
+Dapat disampaikan kembali kepada pengguna dalam bentuk informasi audio.
+
+[Baromim Triwijaya] 09:21:40
+Yang jelas dan juga mudah dipahami.
+
+[Baromim Triwijaya] 09:21:43
+Oke, selanjutnya ada kelebihan dan juga keterbatasan. Fitur tekstur speech.
+
+[Baromim Triwijaya] 09:21:51
+Penerapan teknologi textur Speech membawa berbagai kelebihan signifikan. Yang meningkatkan nilai guna sebuah aplikasi.
+
+[Baromim Triwijaya] 09:22:00
+Terutama dalam hal edukasi dan juga aksibilitas. Teknologi ini sangat efektif dalam membantu pengguna memahami pengucapan.
+
+[Baromim Triwijaya] 09:22:08
+Yang tepat sehingga menjadi alat pendukung utama dalam proses pembelajaran bahasa asing.
+
+[Baromim Triwijaya] 09:22:16
+Selain itu, Speed berperan krusial dalam membantu pengguna. Dengan keterbatasan, membaca atau gangguan penglihatan.
+
+[Baromim Triwijaya] 09:22:26
+Agar tetap dapat menyerap informasi secara mandiri.
+
+[Baromim Triwijaya] 09:22:31
+Dengan mengubah teks menjadi suara. Interaksi aplikasi terasa lebih hidup dan juga inklusif.
+
+[Baromim Triwijaya] 09:22:38
+Menciptakan pengalaman pengguna yang lebih dinamis dan juga responsif.
+
+[Baromim Triwijaya] 09:22:44
+Namun, terdapat beberapa keterbatasan teknis yang perlu diperhatikan. Agar ekspektasi pengembangan tetap realistis.
+
+[Baromim Triwijaya] 09:22:54
+Kualitas suara yang dihasilkan sangat bergantung pada speech Engine.
+
+[Baromim Triwijaya] 09:22:58
+Yang digunakan. Di mana tingkat kealamian vokal bisa bervariasi Antar penyedia layanan.
+
+[Baromim Triwijaya] 09:23:07
+Selain itu, ketersediaan data suara belum mencakup seluruh bahasa di dunia.
+
+[Baromim Triwijaya] 09:23:13
+Dan juga, performanya seringkali dipengaruhi oleh. Spesifikasi perangkat keras. Pengguna.
+
+[Baromim Triwijaya] 09:23:20
+Khusus untuk pengembangan berat berbasis swab. Fungsionalitas eksklusif juga sangat bergantung pada dukungan browser. Masing masing.
+
+[Baromim Triwijaya] 09:23:30
+Yang terkadang memiliki standar implementasi yang berbeda. Beda. Oke, demikian untuk teorinya. Selanjutnya, kita akan praktikum.
+
+[Baromim Triwijaya] 09:23:40
+Kita akan mempraktekkan menggunakan. Konsep multi bahasa, dan juga fitur Text Beach.
+
+[Baromim Triwijaya] 09:23:49
+Aplikasi penerjemah. Yang minggu kemarin.
+
+[Baromim Triwijaya] 09:23:56
+Oke, teman, teman, bisa buka untuk. Ceknya yang kemarin.
+
+[Baromim Triwijaya] 09:24:19
+Pertama, yang perlu diubah adalah di. File puff, spec.
+
+[Baromim Triwijaya] 09:24:26
+Yang bawah ini.
+
+[Baromim Triwijaya] 09:24:31
+Kemudian tambahkan flutters.
+
+[Baromim Triwijaya] 09:24:44
+Di bawah translator.
+
+[Baromim Triwijaya] 09:25:06
+Oke, kalau sudah menambahkan. Router, Pts.
+
+[Baromim Triwijaya] 09:25:11
+Peserta dengan versinya, yaitu versi tiga. Delapan titik tiga.
+
+[Baromim Triwijaya] 09:25:18
+Selanjutnya, kita membuat file baru. Sekarangnya.
+
+[Baromim Triwijaya] 09:25:26
+Folder lip Kita Klik kanan. Kemudian New File.
+
+[Baromim Triwijaya] 09:25:34
+Masukkan nama file nya, yaitu.
+
+[Baromim Triwijaya] 09:25:39
+Cancelations.
+
+[Baromim Triwijaya] 09:25:44
+Eror. Karena hal ini juga ada.
+
+[Baromim Triwijaya] 09:26:29
+Oke, bisa dibuka untuk kid up nya. Link, Kita.
+
+[Baromim Triwijaya] 09:26:36
+Kita ambil untuk file Translation.
+
+[Baromim Triwijaya] 09:26:44
+Yaitu letaknya di folder lip.
+
+[Baromim Triwijaya] 09:26:49
+Kemudian yang ini. Translation.
+
+[Baromim Triwijaya] 09:26:59
+Jadi, fo File ini berisi kamus atau. Daftar.
+
+[Baromim Triwijaya] 09:27:05
+Multi bahasa. Di sini menggunakan tiga bahasa.
+
+[Baromim Triwijaya] 09:27:11
+Yang pertama ini Id, yaitu paket Indonesia. Kemudian yang di bawah.
+
+[Baromim Triwijaya] 09:27:19
+Bahasa Inggris. Kemudian yang terakhir.
+
+[Baromim Triwijaya] 09:27:26
+Ini menggunakan bahasa Mandarin atau Tiongkok. Jadi, ini berisi.
+
+[Baromim Triwijaya] 09:27:33
+Value yang ini. Selamat datang. Log in welkom merupakan sebuah day atau kunci.
+
+[Baromim Triwijaya] 09:27:50
+Oke, semua file nya.
+
+[Baromim Triwijaya] 09:27:56
+Pastikan di press. Leon Router.
+
+[Baromim Triwijaya] 09:28:06
+Oke, kemudian di save.
+
+[Baromim Triwijaya] 09:28:13
+Ke file. Ini Sudah di Save. Selanjutnya. Kita ubah untuk halaman.
+
+[Baromim Triwijaya] 09:28:19
+Log in. Kita buka lagi. Kick up nya.
+
+[Baromim Triwijaya] 09:28:25
+Kita kembalikan lift.
+
+[Baromim Triwijaya] 09:28:31
+Kemudian klik. Page. Dan pilih yang Log in.
+
+[Baromim Triwijaya] 09:28:36
+Login, Page.
+
+[Baromim Triwijaya] 09:28:40
+Ini juga kopi.
+
+[Baromim Triwijaya] 09:28:47
+Kita pastikan di. Scott yang walking bed.
+
+[Baromim Triwijaya] 09:28:55
+Kemudian kita save.
+
+[Baromim Triwijaya] 09:29:18
+Baik, kalau halaman Log in sudah. Selanjutnya halaman Register.
+
+[Baromim Triwijaya] 09:29:27
+Kita pilih halaman. Mcd. Car. Register Page.
+
+[Baromim Triwijaya] 09:29:31
+Yang ini.
+
+[Baromim Triwijaya] 09:29:36
+Kita kopi juga.
+
+[Baromim Triwijaya] 09:29:42
+Lepas tekan di Vscode.
+
+[Baromim Triwijaya] 09:29:51
+Kemudian klik, save.
+
+[Baromim Triwijaya] 09:30:03
+Oke, jika halaman Register sudah.
+
+[Baromim Triwijaya] 09:30:09
+Selanjutnya adalah halaman. Main Gadebit.
+
+[Baromim Triwijaya] 09:30:18
+Ini berarti yang kalau ada tulisan. Internationalization Takto Speech berarti yang diedit.
+
+[Baromim Triwijaya] 09:30:25
+Dan untuk yang di sini, ada tiga. Yaitu ada login.
+
+[Baromim Triwijaya] 09:30:31
+Main. Dan juga Register.
+
+[Baromim Triwijaya] 09:30:36
+Kita kopi yang main.
+
+[Baromim Triwijaya] 09:30:52
+Kemudian kita save.
+
+[Baromim Triwijaya] 09:31:12
+Oke, kemudian file terakhir yang kita it. Kita kembali ke Lip.
+
+[Baromim Triwijaya] 09:31:18
+Karena ini letaknya di folder lip. Kita pilih yang Mind. Router.
+
+[Baromim Triwijaya] 09:31:24
+Ini karena ini ada. Nah, commit kita. Atit yang ini.
+
+[Baromim Triwijaya] 09:31:36
+Kita kopi untuk L Nya. Pas. Tekan di.
+
+[Baromim Triwijaya] 09:31:42
+Scott, kita.
+
+[Baromim Triwijaya] 09:31:46
+Dan aktif.
+
+[Baromim Triwijaya] 09:31:53
+Oke, jika sudah, semuanya bisa di Running. Menggunakan satrun.
+
+[Baromim Triwijaya] 09:33:10
+Oke, jika sudah dikirani. Saya lihat di sini ada.
+
+[Baromim Triwijaya] 09:33:15
+Pemilihan Bahasa. Saat kita klik.
+
+[Baromim Triwijaya] 09:33:20
+Nol tiga, Pilihan. Yang pertama, bahasa Indonesia. Ini untuk default nya.
+
+[Baromim Triwijaya] 09:33:25
+Kemudian bahasa Inggris. Dan yang terakhir, kaca Mandarin.
+
+[Baromim Triwijaya] 09:33:30
+Kita coba untuk yang bahasa Inggris. Kita klik.
+
+[Baromim Triwijaya] 09:33:34
+Maka semua teksnya akan berupa menjadi bahasa Inggris. Termasuk di halaman Register juga.
+
+[Baromim Triwijaya] 09:33:43
+Semuanya menjadi bahasa Inggris. Kita kembali. Kita coba bahasa satu lagi.
+
+[Baromim Triwijaya] 09:33:52
+Kita klik. Maka otomatis akan berubah menjadi.
+
+[Baromim Triwijaya] 09:33:57
+Rasa Chinese atau Mandarin. Begitu juga di halaman Register.
+
+[Baromim Triwijaya] 09:34:11
+Kita juga bahasa Inggris dulu. Kita Register.
+
+[Baromim Triwijaya] 09:34:28
+Oke, sudah.
+
+[Baromim Triwijaya] 09:34:36
+Pengalaman ini juga otomatis menjadi bahasa Inggris. Semuanya. Dari menu. Dan juga.
+
+[Baromim Triwijaya] 09:34:43
+Penjelasan di ini juga.
+
+[Baromim Triwijaya] 09:34:50
+Kemudian kita juga fitur. Textur, speech.
+
+[Baromim Triwijaya] 09:34:56
+Kita coba terjemahkan jenisnya terlebih dahulu.
+
+[Baromim Triwijaya] 09:35:23
+Untuk tidur di Speed atau di. Kanan jadi.
+
+[Baromim Triwijaya] 09:35:28
+Di sebelah tombol. Malin. Kopi.
+
+[Baromim Triwijaya] 09:35:34
+Jk di klik, maka akan.
+
+[Baromim Triwijaya] 09:35:38
+Merubah teks ini menjadi. Audio. Seperti yang didapat di.
+
+[Baromim Triwijaya] 09:35:44
+Google. Translate.
+
+[Baromim Triwijaya] 09:35:52
+Tidak bisa masuk ke Zoom. Untuk audionya, Tapi sudah bisa berbunyi.
+
+[Baromim Triwijaya] 09:36:02
+Nah, untuk pengganti bahasa di sininya, kita harus log out terlebih dahulu.
+
+[Baromim Triwijaya] 09:36:14
+Jadi, seperti ini.
+

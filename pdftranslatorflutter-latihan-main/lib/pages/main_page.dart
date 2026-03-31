@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 import 'login_page.dart';
+import 'profile_page.dart';
 import 'advanced_ui_page.dart';
 import 'layout_demo_page.dart';
-import 'weather_page.dart';
 import 'pdf_translator_page.dart';
 import 'tts_generator_page.dart';
 import 'references/src/references_main.dart';
@@ -111,7 +111,7 @@ class _MainPageState extends State<MainPage> {
               const PdfTranslatorPage(),
               const LayoutDemoPage(),
               const AdvancedUIPage(),
-              WeatherPage(username: widget.username),
+              ProfilePage(username: widget.username),
               const TtsGeneratorPage(),
             ],
           ),

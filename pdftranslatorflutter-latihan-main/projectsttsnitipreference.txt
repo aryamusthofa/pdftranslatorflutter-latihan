@@ -1,0 +1,568 @@
+[10/3 09.28] Faruq Haris Ketua Guild: import 'package:flutter/material.dart';
+
+class AppTranslations {
+  // State global untuk bahasa yang dipilih, default 'id' (Indonesia)
+  static final ValueNotifier<String> currentLocale = ValueNotifier<String>('id');
+
+  static final Map<String, Map<String, String>> _localizedValues = {
+    'id': {
+      'login_welcome': 'Selamat Datang',
+      'login_subtitle': 'Silakan masuk ke akun Anda',
+      'username': 'Username',
+      'password': 'Password',
+      'login_btn': 'Login',
+      'no_account': 'Belum punya akun? ',
+      'register_link': 'Daftar',
+      'login_err_empty': 'Username dan password harus diisi',
+      'login_err_wrong': 'Username atau password salah',
+      'reg_title': 'Buat Akun Baru',
+      'reg_subtitle': 'Daftar untuk memulai',
+      'reg_btn': 'Daftar',
+      'confirm_pass': 'Konfirmasi Password',
+      'has_account': 'Sudah punya akun? ',
+      'login_link': 'Login',
+      'reg_err_empty_user': 'Username tidak boleh kosong',
+      'reg_err_short_user': 'Username minimal 3 karakter',
+      'reg_err_empty_pass': 'Password tidak boleh kosong',
+      'reg_err_short_pass': 'Password minimal 6 karakter',
+      'reg_err_empty_conf': 'Konfirmasi password tidak boleh kosong',
+      'reg_err_not_match': 'Password dan konfirmasi password tidak sama',
+      'reg_success': 'Register berhasil! Silakan login',
+      'reg_err_exist': 'Username sudah terdaftar',
+      'menu_translate': 'Terjemah',
+      'menu_home': 'Home',
+      'menu_history': 'Riwayat',
+      'menu_profile': 'Profil',
+      'menu_logout': 'Logout',
+      'title_translator': 'Penerjemah Dokumen & Teks',
+      'trans_from': 'Terjemahkan dari bahasa:',
+      'trans_doc': '1. Terjemah Dokumen (PDF)',
+      'btn_pick_pdf': 'Pilih File PDF',
+      'result_id': 'Hasil Terjemahan (Indonesia):',
+      'trans_manual': '2. Terjemah Teks Manual',
+      'btn_trans_text': 'Terjemahkan Teks',
+      'hint_manual': 'Ketik atau paste teks di sini...',
+      'copy_success': 'Teks berhasil disalin!',
+      'txt_empty': 'Teks tidak boleh kosong!',
+      'pdf_loading': 'Membaca dan menerjemahkan PDF...',
+      'pdf_fail': 'Gagal memuat file PDF.',
+      'pdf_no_text': 'Tidak ada teks yang dapat diekstrak.',
+      'manual_loading': 'Menerjemahkan teks...',
+      'res_pdf_empty': 'Teks hasil terjemahan PDF akan muncul di sini.',
+      'res_manual_empty': 'Teks hasil terjemahan manual akan muncul di sini.',
+    },
+    'en': {
+      'login_welcome': 'Welcome',
+      'login_subtitle': 'Please log in to your account',
+      'username': 'Username',
+      'password': 'Password',
+      'login_btn': 'Login',
+      'no_account': 'Don\'t have an account? ',
+      'register_link': 'Register',
+      'login_err_empty': 'Username and password are required',
+      'login_err_wrong': 'Invalid username or password',
+      'reg_title': 'Create New Account',
+      'reg_subtitle': 'Register to get started',
+      'reg_btn': 'Register',
+      'confirm_pass': 'Confirm Password',
+      'has_account': 'Already have an account? ',
+      'login_link': 'Login',
+      'reg_err_empty_user': 'Username cannot be empty',
+      'reg_err_short_user': 'Username must be at least 3 characters',
+      'reg_err_empty_pass': 'Password cannot be empty',
+      'reg_err_short_pass': 'Password must be at least 6 characters',
+      'reg_err_empty_conf': 'Confirm password cannot be empty',
+      'reg_err_not_match': 'Passwords do not match',
+      'reg_success': 'Registration successful! Please login',
+      'reg_err_exist': 'Username already exists',
+      'menu_translate': 'Translate',
+      'menu_home': 'Home',
+      'menu_history': 'History',
+      'menu_profile': 'Profile',
+      'menu_logout': 'Logout',
+      'title_translator': 'Document & Text Translator',
+      'trans_from': 'Translate from:',
+      'trans_doc': '1. Translate Document (PDF)',
+      'btn_pick_pdf': 'Select PDF File',
+      'result_id': 'Translation Result (Indonesian):',
+      'trans_manual': '2. Manual Text Translation',
+      'btn_trans_text': 'Translate Text',
+      'hint_manual': 'Type or paste text here...',
+      'copy_success': 'Text copied successfully!',
+      'txt_empty': 'Text cannot be empty!',
+      'pdf_loading': 'Reading and translating PDF...',
+      'pdf_fail': 'Failed to load PDF file.',
+      'pdf_no_text': 'No text could be extracted.',
+      'manual_loading': 'Translating text...',
+      'res_pdf_empty': 'PDF translation text will appear here.',
+      'res_manual_empty': 'Manual translation text will appear here.',
+    },
+    'zh': {
+      'login_welcome': '欢迎',
+      'login_subtitle': '请登录您的帐户',
+      'username': '用户名',
+      'password': '密码',
+      'login_btn': '登录',
+      'no_account': '还没有账户？ ',
+      'register_link': '注册',
+      'login_err_empty': '必须填写用户名和密码',
+      'login_err_wrong': '用户名或密码错误',
+      'reg_title': '创建新账户',
+      'reg_subtitle': '注册以开始',
+      'reg_btn': '注册',
+      'confirm_pass': '确认密码',
+      'has_account': '已有账户？ ',
+      'login_link': '登录',
+      'reg_err_empty_user': '用户名不能为空',
+      'reg_err_short_user': '用户名至少包含3个字符',
+      'reg_err_empty_pass': '密码不能为空',
+      'reg_err_short_pass': '密码至少包含6个字符',
+      'reg_err_empty_conf': '确认密码不能为空',
+      'reg_err_not_match': '两次输入的密码不一致',
+      'reg_success': '注册成功！请登录',
+      'reg_err_exist': '用户名已存在',
+      'menu_translate': '翻译',
+      'menu_home': '主页',
+      'menu_history': '历史',
+      'menu_profile': '个人资料',
+      'menu_logout': '登出',
+      'title_translator': '文档与文本翻译器',
+      'trans_from': '翻译自:',
+      'trans_doc': '1. 翻译文档 (PDF)',
+      'btn_pick_pdf': '选择PDF文件',
+      'result_id': '翻译结果 (印尼语):',
+      'trans_manual': '2. 手动文本翻译',
+      'btn_trans_text': '翻译文本',
+      'hint_manual': '在此处输入或粘贴文本...',
+      'copy_success': '文本已成功复制！',
+      'txt_empty': '文本不能为空！',
+      'pdf_loading': '正在读取和翻译PDF...',
+      'pdf_fail': '加载PDF文件失败。',
+      'pdf_no_text': '无法提取文本。',
+      'manual_loading': '正在翻译文本...',
+      'res_pdf_empty': 'PDF翻译文本将显示在这里。',
+      'res_manual_empty': '手动翻译文本将显示在这里。',
+    }
+  };
+
+  static String tr(String key) {
+    return _localizedValues[currentLocale.value]?[key] ?? key;
+  }
+}
+[10/3 09.57] Uioio Anggit nir Panji Petualang: import 'dart:io';
+import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
+import 'package:flutter/services.dart';
+import 'package:file_picker/file_picker.dart';
+import 'package:syncfusion_flutter_pdf/pdf.dart';
+import 'package:translator/translator.dart';
+
+import 'login_page.dart';
+import 'profile_page.dart';
+import 'grid_page.dart';
+
+// ============================================================
+// MAIN PAGE
+// ============================================================
+class MainPage extends StatefulWidget {
+  final String username;
+  const MainPage({super.key, required this.username});
+
+  @override
+  State<MainPage> createState() => _MainPageState();
+}
+
+class _MainPageState extends State<MainPage> {
+  int currentIndex = 0;
+  late final List<Widget> pages;
+
+  @override
+  void initState() {
+    super.initState();
+    pages = [
+      const PdfTranslatorPage(),
+      const ManualTranslatorPage(),
+      const LayoutDemoPage(),
+      const GridDemoPage(),
+      ProfilePage(username: widget.username),
+    ];
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      drawer: Drawer(
+        child: ListView(
+          padding: EdgeInsets.zero,
+          children: [
+            UserAccountsDrawerHeader(
+              accountName: Text(widget.username),
+              accountEmail: const Text('user@app.com'),
+              currentAccountPicture: const CircleAvatar(
+                child: Icon(Icons.person),
+              ),
+            ),
+            ListTile(
+              leading: const Icon(Icons.picture_as_pdf),
+              title: const Text('Terjemah PDF'),
+              onTap: () {
+                setState(() => currentIndex = 0);
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.translate),
+              title: const Text('Terjemah Manual'),
+              onTap: () {
+                setState(() => currentIndex = 1);
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.home),
+              title: const Text('Home'),
+              onTap: () {
+                setState(() => currentIndex = 2);
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.history),
+              title: const Text('Riwayat'),
+              onTap: () {
+                setState(() => currentIndex = 3);
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.person),
+              title: const Text('Profil'),
+              onTap: () {
+                setState(() => currentIndex = 4);
+                Navigator.pop(context);
+              },
+            ),
+            const Divider(),
+            ListTile(
+              leading: const Icon(Icons.logout),
+              title: const Text('Logout'),
+              onTap: () {
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(builder: (_) => const LoginPage()),
+                );
+              },
+            ),
+          ],
+        ),
+      ),
+      body: pages[currentIndex],
+      bottomNavigationBar: BottomNavigationBar(
+        currentIndex: currentIndex,
+        type: BottomNavigationBarType.fixed,
+        selectedItemColor: Colors.blue,
+        unselectedItemColor: Colors.grey,
+        onTap: (index) => setState(() => currentIndex = index),
+        items: const [
+          BottomNavigationBarItem(icon: Icon(Icons.picture_as_pdf), label: 'PDF'),
+          BottomNavigationBarItem(icon: Icon(Icons.translate), label: 'Manual'),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(icon: Icon(Icons.history), label: 'Riwayat'),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profil'),
+        ],
+      ),
+    );
+  }
+}
+
+// ============================================================
+// HALAMAN TERJEMAHAN MANUAL
+// — Tema lokal (light / dark / green) HANYA berlaku di halaman ini
+// — Menggunakan Theme(...) widget persis seperti grid_page.dart
+// ============================================================
+class ManualTranslatorPage extends StatefulWidget {
+  const ManualTranslatorPage({super.key});
+
+  @override
+  State<ManualTranslatorPage> createState() => _ManualTranslatorPageState();
+}
+
+class _ManualTranslatorPageState extends State<ManualTranslatorPage>
+    with SingleTickerProviderStateMixin {
+
+  // ─────────────────────────────────────────
+  // 1. TEMA LOKAL  (sama persis pola grid_page)
+  // ─────────────────────────────────────────
+  int _currentThemeIndex = 0;
+
+  final List<ThemeData> _themes = [
+    // ── Tema TERANG (biru) ──
+    ThemeData(
+      brightness: Brightness.light,
+      primarySwatch: Colors.blue,
+      primaryColor: Colors.blue,
+      scaffoldBackgroundColor: const Color(0xFFF4F6FA),
+      appBarTheme: const AppBarTheme(
+        backgroundColor: Colors.blue,
+        foregroundColor: Colors.white,
+        elevation: 2,
+      ),
+      elevatedButtonTheme: ElevatedButtonThemeData(
+        style: ElevatedButton.styleFrom(
+          backgroundColor: Colors.blue,
+          foregroundColor: Colors.white,
+        ),
+      ),
+      inputDecorationTheme: InputDecorationTheme(
+        filled: true,
+        fillColor: Colors.white,
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(12),
+          borderSide: const BorderSide(color: Colors.blue, width: 2),
+        ),
+        hintStyle: const TextStyle(color: Color(0xFF9E9E9E)),
+      ),
+      cardColor: Colors.white,
+    ),
+
+    // ── Tema GELAP ──
+    ThemeData(
+      brightness: Brightness.dark,
+      primarySwatch: Colors.indigo,
+      primaryColor: const Color(0xFF7C83FD),
+      scaffoldBackgroundColor: const Color(0xFF0D0D1A),
+      appBarTheme: const AppBarTheme(
+        backgroundColor: Color(0xFF12122A),
+        foregroundColor: Colors.white,
+        elevation: 2,
+      ),
+      elevatedButtonTheme: ElevatedButtonThemeData(
+        style: ElevatedButton.styleFrom(
+          backgroundColor: const Color(0xFF7C83FD),
+          foregroundColor: Colors.white,
+        ),
+      ),
+      inputDecorationTheme: InputDecorationTheme(
+        filled: true,
+        fillColor: const Color(0xFF1E1E35),
+        border: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(12),
+          borderSide: const BorderSide(color: Color(0xFF3F3F6E)),
+        ),
+        enabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(12),
+          borderSide: const BorderSide(color: Color(0xFF3F3F6E)),
+        ),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(12),
+          borderSide: const BorderSide(color: Color(0xFF7C83FD), width: 2),
+        ),
+        hintStyle: const TextStyle(color: Color(0xFF6B6B8E)),
+      ),
+      cardColor: const Color(0xFF1A1A2E),
+    ),
+
+    // ── Tema HIJAU ──
+    ThemeData(
+      brightness: Brightness.light,
+      primarySwatch: Colors.green,
+      primaryColor: const Color(0xFF2E7D32),
+      scaffoldBackgroundColor: const Color(0xFFF0F7F1),
+      appBarTheme: const AppBarTheme(
+        backgroundColor: Color(0xFF2E7D32),
+        foregroundColor: Colors.white,
+        elevation: 2,
+      ),
+      elevatedButtonTheme: ElevatedButtonThemeData(
+        style: ElevatedButton.styleFrom(
+          backgroundColor: const Color(0xFF2E7D32),
+          foregroundColor: Colors.white,
+        ),
+      ),
+      inputDecorationTheme: InputDecorationTheme(
+        filled: true,
+        fillColor: Colors.white,
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(12),
+          borderSide: const BorderSide(color: Color(0xFF2E7D32), width: 2),
+        ),
+        hintStyle: const TextStyle(color: Color(0xFF9E9E9E)),
+      ),
+      cardColor: Colors.white,
+    ),
+  ];
+
+  // Label & warna tombol tema
+  final List<Map<String, dynamic>> _themeButtons = [
+    {'label': '☀️ Cerah', 'color': Colors.blue},
+    {'label': '🌙 Kelam',  'color': Color(0xFF7C83FD)},
+    {'label': '🌿 Segar',  'color': Color(0xFF2E7D32)},
+  ];
+
+  // ─────────────────────────────────────────
+  // 2. STATE TRANSLASI
+  // ─────────────────────────────────────────
+  final TextEditingController _inputController = TextEditingController();
+  String _translatedText = '';
+  bool _isLoading = false;
+  final GoogleTranslator _translator = GoogleTranslator();
+
+  // ─────────────────────────────────────────
+  // 3. ANIMASI EXPLICIT (dari grid_page.dart)
+  // ─────────────────────────────────────────
+  late AnimationController _animController;
+  late Animation<double> _scaleAnimation;
+  late Animation<double> _rotateAnimation;
+  late Animation<Color?> _colorAnimation;
+
+  // ─────────────────────────────────────────
+  // 4. ANIMASI IMPLICIT
+  // ─────────────────────────────────────────
+  bool _isResultVisible = false;
+  bool _isButtonPressed = false;
+  bool _isOpacityVisible = true;
+  bool _isCrossFadeFirst = true;
+
+  @override
+  void initState() {
+    super.initState();
+
+    _animController = AnimationController(
+      vsync: this,
+      duration: const Duration(seconds: 2),
+    )..repeat(reverse: true);
+
+    _scaleAnimation = Tween<double>(begin: 0.85, end: 1.15).animate(
+      CurvedAnimation(parent: _animController, curve: Curves.easeInOut),
+    );
+    _rotateAnimation = Tween<double>(begin: -0.08, end: 0.08).animate(
+      CurvedAnimation(parent: _animController, curve: Curves.easeInOut),
+    );
+    _colorAnimation = ColorTween(
+      begin: Colors.blue,
+      end: Colors.indigo,
+    ).animate(
+      CurvedAnimation(parent: _animController, curve: Curves.linear),
+    );
+  }
+
+  @override
+  void dispose() {
+    _animController.dispose();
+    _inputController.dispose();
+    super.dispose();
+  }
+
+  // ─────────────────────────────────────────
+  // 5. LOGIKA TERJEMAHAN
+  // ─────────────────────────────────────────
+  Future<void> _translateText() async {
+    final inputText = _inputController.text.trim();
+    if (inputText.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Masukkan teks yang ingin diterjemahkan!')),
+      );
+      return;
+    }
+
+    setState(() {
+      _isLoading = true;
+      _isResultVisible = false;
+      _isButtonPressed = true;
+      _translatedText = '';
+    });
+
+    try {
+      final translation = await _translator.translate(inputText, from: 'en', to: 'id');
+      setState(() {
+        _translatedText = translation.text;
+        _isResultVisible = true;
+      });
+    } catch (e) {
+      setState(() {
+        _translatedText = 'Terjadi kesalahan: $e';
+        _isResultVisible = true;
+      });
+    } finally {
+      setState(() {
+        _isLoading = false;
+        _isButtonPressed = false;
+      });
+    }
+  }
+
+  void _clearAll() => setState(() {
+        _inputController.clear();
+        _translatedText = '';
+        _isResultVisible = false;
+      });
+
+  // ─────────────────────────────────────────
+  // 6. BUILD — dibungkus Theme(...) lokal
+  // ─────────────────────────────────────────
+  @override
+  Widget build(BuildContext context) {
+    final ThemeData activeTheme = _themes[_currentThemeIndex];
+    final Color primary = activeTheme.primaryColor;
+    final bool isDark = activeTheme.brightness == Brightness.dark;
+
+    // Warna teks & surface mengikuti tema aktif
+    final Color textColor = isDark ? Colors.white : const Color(0xFF1A1A1A);
+    final Color surfaceColor = isDark ? const Color(0xFF1A1A2E) : Colors.white;
+    final Color resultBg = isDark
+        ? primary.withOpacity(0.12)
+        : primary.withOpacity(0.07);
+    final Color resultBorder = primary.withOpacity(0.4);
+    final Color exampleCardBg = isDark
+        ? primary.withOpacity(0.10)
+        : primary.withOpacity(0.06);
+
+    // ── Bungkus seluruh halaman dengan Theme lokal ──
+    return Theme(
+      data: activeTheme,
+      child: Scaffold(
+        backgroundColor: activeTheme.scaffoldBackgroundColor,
+        appBar: AppBar(
+          title: const Text('Terjemah Manual'),
+          actions: [
+            IconButton(
+              icon: const Icon(Icons.refresh),
+              tooltip: 'Reset',
+              onPressed: _clearAll,
+            ),
+          ],
+        ),
+        body: SingleChildScrollView(
+          padding: const EdgeInsets.all(16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+
+              // ══════════════════════════════════════
+              // A. TOMBOL GANTI TEMA LOKAL
+              // (pola identik dengan grid_page.dart)
+              // ══════════════════════════════════════
+              Container(
+                padding: const EdgeInsets.all(12),
+                decoration: BoxDecoration(
+                  color: surfaceColor,
+                  borderRadius: BorderRadius.circular(12),
+                  border: Border.all(color: primary.withOpacity(0.3)),
+                  boxShadow: [
+                    BoxShadow(
+                      color: primary.withOpacity(0.08),
+                      blurRadius: 8,
+                      offset: const Offset(0, 2),
+                    ),
+                  ],
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Gaya Tampilan',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                  
